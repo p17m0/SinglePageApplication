@@ -1,0 +1,9 @@
+1. added simple model
+2. added simple view
+3. added simple tamplate
+					what must i do?
+											
+								1. forms
+								2. good template with tags
+								3. normal model
+								4. normal view for template

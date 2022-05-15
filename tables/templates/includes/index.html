@@ -1,0 +1,18 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+<table>
+  <tr>
+    <th class="first">data</th>
+    <th>name </th>
+    <th>quantity</th>
+    <th>distance</th>
+  </tr>
+  {% for table in page_obj %}
+  <tr>
+    <td>{{ table.date }}</td>
+    <td>{{ table.name  }}</td>
+    <td>{{ table.quantity }}</td>
+    <td>{{ table.distance }}</td>
+  </tr>
+  {% endfor %}
+  </table>
